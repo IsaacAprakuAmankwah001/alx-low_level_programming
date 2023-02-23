@@ -3,14 +3,14 @@
 /**
  * print_times_table - print the 9 times table
  */
-void print_times_table(int)
+void print_times_table(int n)
 {
-	int num, mult, prod;
+	int  mult, prod;
 
-	if (num > 15 || num < 0)
+	if (n > 15 || n < 0)
 		_putchar('\n');
 
-	for (num = 0; num <= 9; num++)
+	for (n = 0; n <= 9; n++)
 	{
 		_putchar('0');
 		for (mult = 1; mult <= 9; mult++)
@@ -18,7 +18,7 @@ void print_times_table(int)
 			_putchar(',');
 			_putchar(' ');
 
-			prod = num * mult;
+			prod = n * mult;
 
 			if (prod <= 9)
 				_putchar(' ');
