@@ -3,12 +3,12 @@
 /**
  * print_times_table - print the 9 times table
  */
-void print_times_table(void)
+void print_times_table(int)
 {
 	int num, mult, prod;
 
-	if (num > 15 || n < 0)
-		printf('\n');
+	if (num > 15 || num < 0)
+		_putchar('\n');
 
 	for (num = 0; num <= 9; num++)
 	{
