@@ -1,8 +1,4 @@
 #include <stdio.h>
-/**
- * main - a function that prints a buffer.
- * Return: 0 (success)
- */
 
 int main(void)
 {
