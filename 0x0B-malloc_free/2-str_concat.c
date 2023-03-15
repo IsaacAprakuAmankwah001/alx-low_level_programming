@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * *str_concat - concatenates two strings
  * @s1: string to concatenate
